@@ -1,0 +1,289 @@
+/* Colour Codes
+#FF9250 - Orange
+#FF6456 - Peach
+#E8496B - Pink
+
+font-family: 'Bree Serif', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    margin-top: 2rem;
+    width: 100px;
+    height: auto;
+    margin-left: calc(50% - 50px);
+}
+
+.bg-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bg-nav ul li {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.bg-nav ul li a {
+    text-decoration: none;
+    color: #FF6456;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.618rem;
+}
+
+.masthead {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    height: 300px;
+}
+
+.tagline {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 130px; 
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    color: #FF6456;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.618rem;
+    line-height: 1.4rem;
+}
+
+.article-one img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    color: #FF9250;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.618rem;
+}
+
+.article-one, .article-two, .article-three {
+    margin: 1rem;
+}
+
+fieldset {
+    margin: 1rem;
+    border: none;
+}
+
+#full-name, #email, #subject, #message, #send {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #E8496B;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+.social {
+    color: #FFF; 
+    padding-left: 0.5rem;
+}
+
+.company-info {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 0.618rem;
+}
+
+/* TABLET */
+@media screen and (min-width: 35rem) and (max-width: 80rem) {
+
+    .bg-nav ul li {
+        display: inline;
+        width: 50%;
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-left: 0;
+    }
+    
+    .bg-nav ul li a {
+        text-align: center;
+    }
+    
+    .bg-nav ul li a, figcaption, p {
+        font-size: 1rem;
+    }
+    
+    .article-one figure {
+        float: left;
+        width: 43%;
+    }
+    
+     .article-one p {
+        float: left;
+        width: 43%;
+    }
+    
+    .article-two {
+        clear: both;
+    }
+    
+    #full-name, #email, #subject {
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    
+    #message {
+        position: relative;
+        width: 50%;
+        margin-left: 50%;
+        top: -195px;
+        padding-bottom: 135px;
+        
+    }
+    
+    #send {
+        position: relative;
+        top: -195px;
+    }
+
+    .socialmedia {
+        text-align: center;
+    }
+    
+    p, figcaption {
+        font-size: 1rem;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 81rem) and (max-width: 100rem) {
+    .logo img {
+        float: left;
+        margin-left: 1rem;
+        width: 100px;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .bg-nav ul li {
+        float: left;
+        display: inline;
+        width: 10%;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    
+    .masthead {
+        clear: both;
+    }
+    
+    .bg-nav ul li a {
+        text-align: center;
+    }
+    
+    .bg-nav ul li a, figcaption, p {
+        font-size: 1.618rem;
+        line-height: 1.6rem;
+    }
+    
+     h2 {
+        text-align: left;
+    }
+    
+    .article-one figure {
+        float: left;
+        width: 43%;
+    }
+    
+     .article-one p {
+        float: left;
+        width: 43%;
+    }
+    
+    .article-two {
+        clear: both;
+        float: left;
+        width: 47.5%;
+    }
+    
+    .article-three {
+        float: left;
+        width: 47.5%;
+    }
+    
+    fieldset {
+        margin: 5rem;
+    }
+    
+    #full-name, #email, #subject {
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    
+    #message {
+        position: relative;
+        width: 50%;
+        margin-left: 50%;
+        top: -195px;
+        padding-bottom: 135px;  
+    }
+    
+    #send {
+        position: relative;
+        top: -195px;
+    }
+    
+    footer {
+        clear: both;
+    }
+    
+    .company-info {
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .socialmedia {
+        text-align: left;
+        margin-left: 1rem;
+    }
+    
+    p, figcaption {
+        font-size: 1.618rem;
+    }
+}
